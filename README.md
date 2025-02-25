@@ -18,13 +18,13 @@ The project processes raw eCommerce datasets (e.g., Customers, Orders, Order Lin
 
 1. **Bronze Layer (Raw Data)**:
    - Acts as the "landing zone" for raw data.
-   - No schema enforcement is applied at this stage.
+   - Generally, no schema enforcement is applied at this stage. However, I have applied it.
    - Data is ingested in its raw format (e.g., CSV, JSON, or Parquet).
 
 2. **Silver Layer (Filtered, Cleaned, Augmented)**:
-   - Applies schema enforcement and data validation.
    - Cleans and filters the raw data to produce structured datasets.
    - Augments the data with additional transformations.
+   - Added a few extra columns as needed.
 
 3. **Gold Layer (Business-Level Aggregates)**:
    - Contains aggregated and business-ready datasets.

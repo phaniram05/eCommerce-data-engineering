@@ -12,7 +12,7 @@ The project processes raw eCommerce datasets (e.g., Customers, Orders, Order Lin
 
 ## Architecture
 
-![Medallion Architecture](Project Architecture.png)
+![Medallion Architecture](Project%20Architecture.png)
 
 ### Medallion Layers:
 
